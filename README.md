@@ -24,8 +24,8 @@ Easy controls with Regex.
 ```js
 import { isEmail } from "regex-safe";
 
-isEmal("username@mail.com"); // true
-isEmal("username@m.c"); // false
+isEmail("username@mail.com"); // true
+isEmail("username@m.c"); // false
 ```
 
 ## Versioning
