@@ -1,0 +1,24 @@
+{
+  "name": "regex-safe",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "license": "MIT",
+  "description": "Easy controls with Regex.",
+  "author": {
+    "name": "Mehmet Sağır",
+    "email": "me@mehmetsagir.com",
+    "url": "https://mehmetsagir.com"
+  },
+  "homepage": "https://github.com/mehmetsagir/regex-safe/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehmetsagir/regex-safe"
+  },
+  "bugs": "https://github.com/mehmetsagir/regex-safe/issues",
+  "keywords": [
+    "regex",
+    "regex-safe",
+    "regex-validator",
+    "regular-expression"
+  ]
+}
