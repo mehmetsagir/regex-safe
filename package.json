@@ -1,6 +1,6 @@
 {
   "name": "regex-safe",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./index.js",
   "license": "MIT",
   "description": "Easy controls with Regex.",
