@@ -28,6 +28,15 @@ isEmail("username@mail.com"); // true
 isEmail("username@m.c"); // false
 ```
 
+### Number
+
+```js
+import { isNum } from "regex-safe";
+
+isNum("1"); // true
+isNum("1a+"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
