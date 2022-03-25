@@ -19,7 +19,7 @@ Easy controls with Regex.
 
 ## Usage
 
-- ### Email
+### Email
 
 ```js
 import { isEmail } from "regex-safe";
