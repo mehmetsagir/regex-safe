@@ -1,3 +1,4 @@
 const { isEmail } = require("./controls/isEmail");
+const { isNum } = require("./controls/isNum");
 
-module.exports = { isEmail };
+module.exports = { isEmail, isNum };
