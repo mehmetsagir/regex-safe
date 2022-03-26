@@ -37,6 +37,17 @@ isNum("1"); // true
 isNum("1a+"); // false
 ```
 
+### Name
+
+Requires first and last name.
+
+```js
+import { isName } from "regex-safe";
+
+isName("Mehmet Sağır"); // true
+isName("Mehmet"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
