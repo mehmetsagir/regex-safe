@@ -48,6 +48,17 @@ isName("Mehmet Sağır"); // true
 isName("Mehmet"); // false
 ```
 
+### Image URL
+
+URL and image types control.
+
+```js
+import { isImageURL } from "regex-safe";
+
+isImageURL("https://mehmetsagir.com/wallpaper/3.webp"); // true
+isImageURL("https://mehmets>agir.com/wallpaper/3."); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
