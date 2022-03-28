@@ -1,5 +1,5 @@
 const isRegex = (value, regex) => {
-  if (!regex) return false;
+  if (typeof regex !== "object") return false;
   return regex.test(value) ? true : false;
 };
 
