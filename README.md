@@ -59,6 +59,18 @@ isImageURL("https://mehmetsagir.com/wallpaper/3.webp"); // true
 isImageURL("https://mehmets>agir.com/wallpaper/3."); // false
 ```
 
+### External Regex
+
+Allows us to check the value with External Regex.
+
+```js
+import { isRegex } from "regex-safe";
+
+isRegex("0123", /^[1-9]\d*$/g); // true
+isRegex("Mehmet", /^[1-9]\d*$/g); // false
+isRegex("Mehmet"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
