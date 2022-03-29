@@ -71,6 +71,16 @@ isRegex("Mehmet", /^[1-9]\d*$/g); // false
 isRegex("Mehmet"); // false
 ```
 
+### Boolean
+
+```js
+import { isBoolean } from "regex-safe";
+
+isBoolean(false); // true
+isBoolean("true"); // true
+isBoolean("value"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
