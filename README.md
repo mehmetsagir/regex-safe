@@ -28,6 +28,15 @@ isEmail("username@mail.com"); // true
 isEmail("username@m.c"); // false
 ```
 
+### URL
+
+```js
+import { isURL } from "regex-safe";
+
+isURL("https://mehmetsagir.com"); // true
+isURL("htp://mehmetsagir.c"); // false
+```
+
 ### Number
 
 ```js
