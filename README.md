@@ -57,6 +57,29 @@ isName("Mehmet Sağır"); // true
 isName("Mehmet"); // false
 ```
 
+### Password
+
+By default all rules are enabled. <br/>
+<b>English</b> and <b>Turkish</b> error message options. Default language is <b>English</b>.<br/>
+
+- Rules:
+  - atLeastOneNumber
+  - atLeastOneUpperCase
+  - atLeastOneLowerCase
+  - atLeastSpeacialChar
+  - whitespace
+  - repeatedly
+  - minLength
+
+```js
+import { isPassword } from "regex-safe";
+
+isPassword("Test-123"); // true
+isPassword("Test -123", { whitespace: false }, "tr"); // true
+isPassword("Test -123"); // { valid: false, message: 'Must not contain whitespace.' }
+isPassword("Test -123", {}, "tr"); // { valid: false, message: 'Boşluk içermemeli.' }
+```
+
 ### Image URL
 
 URL and image types control.

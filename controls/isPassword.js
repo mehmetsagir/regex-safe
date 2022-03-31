@@ -3,8 +3,8 @@ const defaultOptions = {
   atLeastOneUpperCase: true,
   atLeastOneLowerCase: true,
   atLeastSpeacialChar: true,
-  whitespace: false,
-  repeatedly: false,
+  whitespace: true,
+  repeatedly: true,
   minLength: true,
 };
 
