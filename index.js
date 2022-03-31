@@ -5,6 +5,7 @@ const { isImageURL } = require("./controls/isImageURL");
 const { isRegex } = require("./controls/isRegex");
 const { isBoolean } = require("./controls/isBoolean");
 const { isURL } = require("./controls/isURL");
+const { isPassword } = require("./controls/isPassword");
 
 module.exports = {
   isEmail,
@@ -14,4 +15,5 @@ module.exports = {
   isRegex,
   isBoolean,
   isURL,
+  isPassword,
 };
