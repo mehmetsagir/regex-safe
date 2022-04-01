@@ -17,7 +17,7 @@ Easy controls with Regex.
   </a>
 </p>
 
-## Usage
+## Use of Controls
 
 ### Email
 
