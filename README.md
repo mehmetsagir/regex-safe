@@ -76,7 +76,7 @@ By default all rules are enabled. <br/>
   - atLeastOneNumber
   - atLeastOneUpperCase
   - atLeastOneLowerCase
-  - atLeastSpeacialChar
+  - atLeastOneSpecialChar
   - whitespace
   - repeatedly
   - minLength
