@@ -17,6 +17,16 @@ Easy controls with Regex.
   </a>
 </p>
 
+## Use of Utils
+
+### Remove HTML Tags
+
+```js
+import { removeHTMLTags } from "regex-safe";
+
+removeHTMLTags("<h1>Hello world</h1>"); // Hello world
+```
+
 ## Use of Controls
 
 ### Email
