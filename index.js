@@ -7,6 +7,8 @@ const { isBoolean } = require("./controls/isBoolean");
 const { isURL } = require("./controls/isURL");
 const { isPassword } = require("./controls/isPassword");
 
+const { removeHTMLTags } = require("./utils/removeHTMLTags");
+
 module.exports = {
   isEmail,
   isNum,
@@ -16,4 +18,5 @@ module.exports = {
   isBoolean,
   isURL,
   isPassword,
+  removeHTMLTags,
 };
