@@ -6,6 +6,7 @@ const { isRegex } = require("./controls/isRegex");
 const { isBoolean } = require("./controls/isBoolean");
 const { isURL } = require("./controls/isURL");
 const { isPassword } = require("./controls/isPassword");
+const { isEven } = require("./controls/isEven");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 
@@ -18,5 +19,6 @@ module.exports = {
   isBoolean,
   isURL,
   isPassword,
+  isEven,
   removeHTMLTags,
 };
