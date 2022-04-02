@@ -123,6 +123,16 @@ isBoolean("true"); // true
 isBoolean("value"); // false
 ```
 
+### Even Number
+
+```js
+import { isEven } from "regex-safe";
+
+isEven(2); // true
+isEven("2"); // true
+isEven(1); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
