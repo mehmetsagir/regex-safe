@@ -133,6 +133,16 @@ isEven("2"); // true
 isEven(1); // false
 ```
 
+### Odd Number
+
+```js
+import { isOdd } from "regex-safe";
+
+isOdd(3); // true
+isOdd("3"); // true
+isOdd(2); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
