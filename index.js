@@ -8,6 +8,7 @@ const { isURL } = require("./controls/isURL");
 const { isPassword } = require("./controls/isPassword");
 const { isEven } = require("./controls/isEven");
 const { isOdd } = require("./controls/isOdd");
+const { isSlug } = require("./controls/isSlug");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 
@@ -23,4 +24,5 @@ module.exports = {
   isEven,
   isOdd,
   removeHTMLTags,
+  isSlug,
 };

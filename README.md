@@ -113,6 +113,15 @@ isRegex("Mehmet", /^[1-9]\d*$/g); // false
 isRegex("Mehmet"); // false
 ```
 
+### Slug
+
+```js
+import { isSlug } from "regex-safe";
+
+isSlug("hello-world"); // true
+isSlug("hello--world"); // false
+```
+
 ### Boolean
 
 ```js
