@@ -1,7 +1,11 @@
 {
   "name": "regex-safe",
-  "version": "0.1.13",
-  "main": "./index.js",
+  "version": "0.1.18",
+  "main": "./package/index.js",
+  "source": "./index.js",
+  "scripts": {
+    "build:publish": "parcel build --no-source-maps --no-cache && yarn publish && rm -rf ./package"
+  },
   "license": "MIT",
   "description": "Easy controls with Regex.",
   "author": {
@@ -20,5 +24,8 @@
     "regex-safe",
     "regex-validator",
     "regular-expression"
-  ]
+  ],
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
 }
