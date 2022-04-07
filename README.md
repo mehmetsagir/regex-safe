@@ -152,6 +152,15 @@ isOdd("3"); // true
 isOdd(2); // false
 ```
 
+### Hex Color
+
+```js
+import { isHexColor } from "regex-safe";
+
+isHexColor("#000"); // true
+isHexColor("00"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
