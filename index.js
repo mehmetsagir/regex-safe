@@ -10,6 +10,7 @@ const { isEven } = require("./controls/isEven");
 const { isOdd } = require("./controls/isOdd");
 const { isSlug } = require("./controls/isSlug");
 const { isHexColor } = require("./controls/isHexColor");
+const { isInteger } = require("./controls/isInteger");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 
@@ -27,4 +28,5 @@ module.exports = {
   removeHTMLTags,
   isSlug,
   isHexColor,
+  isInteger,
 };
