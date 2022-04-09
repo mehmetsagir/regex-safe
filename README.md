@@ -152,6 +152,15 @@ isOdd("3"); // true
 isOdd(2); // false
 ```
 
+### Integer
+
+```js
+import { isInteger } from "regex-safe";
+
+isInteger(2); // true
+isInteger(2.2); // false
+```
+
 ### Hex Color
 
 ```js
