@@ -11,8 +11,11 @@ const { isOdd } = require("./controls/isOdd");
 const { isSlug } = require("./controls/isSlug");
 const { isHexColor } = require("./controls/isHexColor");
 const { isInteger } = require("./controls/isInteger");
+const { isIPv4 } = require("./controls/isIPv4");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
+
+console.log(isIPv4("01.102.103"));
 
 module.exports = {
   isEmail,
@@ -29,4 +32,5 @@ module.exports = {
   isSlug,
   isHexColor,
   isInteger,
+  isIPv4,
 };
