@@ -170,6 +170,15 @@ isHexColor("#000"); // true
 isHexColor("00"); // false
 ```
 
+### IPv4 Address
+
+```js
+import { isIPv4 } from "regex-safe";
+
+isIPv4("01.102.103.104"); // true
+isIPv4("01.102.103"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
@@ -181,3 +190,7 @@ We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
 ## License
 
 Licensed under the MIT license, see [LICENSE](https://github.com/mehmetsagir/regex-safe/blob/master/LICENSE) for details.
+
+```
+
+```
