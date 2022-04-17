@@ -15,8 +15,6 @@ const { isIPv4 } = require("./controls/isIPv4");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 
-console.log(isIPv4("01.102.103"));
-
 module.exports = {
   isEmail,
   isNum,
