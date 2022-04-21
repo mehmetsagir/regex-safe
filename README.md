@@ -179,6 +179,15 @@ isIPv4("01.102.103.104"); // true
 isIPv4("01.102.103"); // false
 ```
 
+### IPv6 Address
+
+```js
+import { isIPv6 } from "regex-safe";
+
+isIPv6("2001:0db8:85a3:0000:0000:8a2e:0370:7334"); // true
+isIPv6("2001:0db8:85a3:0000:0000:8a2e:0370"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
