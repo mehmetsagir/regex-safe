@@ -10,10 +10,10 @@
   "description": "Easy controls with Regex.",
   "author": {
     "name": "Mehmet Sağır",
-    "email": "me@mehmetsagir.com",
-    "url": "https://mehmetsagir.com"
+    "email": "mehmetsagirdev@gmail.com",
+    "url": "https://mehmetsagir.dev"
   },
-  "homepage": "https://github.com/mehmetsagir/regex-safe/blob/master/README.md",
+  "homepage": "https://regexsafe.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/mehmetsagir/regex-safe"
