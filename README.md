@@ -200,6 +200,3 @@ We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
 
 Licensed under the MIT license, see [LICENSE](https://github.com/mehmetsagir/regex-safe/blob/master/LICENSE) for details.
 
-```
-
-```
