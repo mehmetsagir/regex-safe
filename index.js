@@ -13,6 +13,7 @@ const { isHexColor } = require("./controls/isHexColor");
 const { isInteger } = require("./controls/isInteger");
 const { isIPv4 } = require("./controls/isIPv4");
 const { isIPv6 } = require("./controls/isIPv6");
+const { isHTMLTags } = require("./controls/isHTML");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 
@@ -33,4 +34,5 @@ module.exports = {
   isInteger,
   isIPv4,
   isIPv6,
+  isHTMLTags,
 };

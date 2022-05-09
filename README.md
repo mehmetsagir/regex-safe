@@ -188,6 +188,15 @@ isIPv6("2001:0db8:85a3:0000:0000:8a2e:0370:7334"); // true
 isIPv6("2001:0db8:85a3:0000:0000:8a2e:0370"); // false
 ```
 
+### HTML Tags
+
+```js
+import { isHTMLTags } from "regex-safe";
+
+isHTMLTags("<h1>Mehmet</h1>"); // true
+isHTMLTags("Mehmet"); // false
+```
+
 ## Versioning
 
 We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
@@ -199,4 +208,3 @@ We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
 ## License
 
 Licensed under the MIT license, see [LICENSE](https://github.com/mehmetsagir/regex-safe/blob/master/LICENSE) for details.
-
