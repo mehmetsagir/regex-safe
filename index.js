@@ -16,6 +16,7 @@ const { isIPv6 } = require("./controls/isIPv6");
 const { isHTMLTags } = require("./controls/isHTMLTags");
 
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
+const { boldText } = require("./utils/boldText");
 
 module.exports = {
   isEmail,
@@ -35,4 +36,5 @@ module.exports = {
   isIPv4,
   isIPv6,
   isHTMLTags,
+  boldText,
 };

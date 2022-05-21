@@ -19,6 +19,24 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Bold Text
+
+```js
+import { boldText } from "regex-safe";
+
+- Params
+  - Text
+  - The text you want to be bold
+  - Case Sensitivity (Default: false)
+
+const text = "
+You can make the areas you want bold in our texts using boldText. Example usage of BoldText is as follows.";
+
+boldText(text, 'boldText'); // You can make the areas you want bold in our texts using <b>boldText</b>. Example usage of <b>BoldText</b> is as follows.
+
+boldText(text, 'boldText', true); // You can make the areas you want bold in our texts using <b>boldText</b>. Example usage of BoldText is as follows.
+```
+
 ### Remove HTML Tags
 
 ```js
