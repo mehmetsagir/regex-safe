@@ -21,13 +21,13 @@ Easy controls with Regex.
 
 ### Bold Text
 
-```js
-import { boldText } from "regex-safe";
-
 - Params
   - Text
   - The text you want to be bold
   - Case Sensitivity (Default: false)
+
+```js
+import { boldText } from "regex-safe";
 
 const text = "
 You can make the areas you want bold in our texts using boldText. Example usage of BoldText is as follows.";
