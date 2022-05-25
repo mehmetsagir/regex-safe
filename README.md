@@ -19,6 +19,21 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Equal Array
+
+- Params
+  - First Array
+  - Second Array
+  - Type Sensitivity (Default: false)
+
+```js
+import { isEqualArray } from "regex-safe";
+
+isEqualArray([1, 2, 3], [1, "2", 3]); // true
+isEqualArray([1, 2, 3], [1, "2", 3], true); // false
+isEqualArray([1, 2, 3], [1, 2, 3], true); // true
+```
+
 ### Bold Text
 
 - Params
