@@ -18,6 +18,7 @@ const { isHTMLTags } = require("./controls/isHTMLTags");
 const { removeHTMLTags } = require("./utils/removeHTMLTags");
 const { boldText } = require("./utils/boldText");
 const { isEqualArray } = require("./utils/isEqualArray");
+const { castArray } = require("./utils/castArray");
 
 module.exports = {
   isEmail,
@@ -39,4 +40,5 @@ module.exports = {
   isHTMLTags,
   boldText,
   isEqualArray,
+  castArray,
 };

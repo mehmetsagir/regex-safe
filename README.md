@@ -19,6 +19,15 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Cast Array
+
+```js
+import { castArray } from "regex-safe";
+
+castArray(1, 2, 3); // [1, 2, 3]
+castArray([1, 2, 3]); // [1, 2, 3]
+```
+
 ### Equal Array
 
 - Params
