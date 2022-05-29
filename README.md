@@ -19,6 +19,27 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Convert Object
+
+Convert to Object from Array.
+
+```js
+import { convertArray } from "regex-safe";
+
+convertObject(
+  [
+    { id: 1, name: "John" },
+    { id: 2, name: "Jane" },
+  ],
+  "name"
+); // { John: { id: 1, name: "John" }, Jane: { id: 2, name: "Jane" } }
+
+convertObject([
+  { id: 1, name: "John" },
+  { id: 2, name: "Jane" },
+]); // { 0: { id: 1, name: "John" }, 1: { id: 2, name: "Jane" } }
+```
+
 ### Cast Array
 
 ```js

@@ -19,6 +19,17 @@ const { removeHTMLTags } = require("./utils/removeHTMLTags");
 const { boldText } = require("./utils/boldText");
 const { isEqualArray } = require("./utils/isEqualArray");
 const { castArray } = require("./utils/castArray");
+const { convertObject } = require("./utils/convertObject");
+
+console.log(
+  convertObject(
+    [
+      { id: 1, name: "John" },
+      { id: 2, name: "Jane" },
+    ],
+    "name"
+  )
+);
 
 module.exports = {
   isEmail,
