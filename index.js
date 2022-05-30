@@ -21,16 +21,6 @@ const { isEqualArray } = require("./utils/isEqualArray");
 const { castArray } = require("./utils/castArray");
 const { convertObject } = require("./utils/convertObject");
 
-console.log(
-  convertObject(
-    [
-      { id: 1, name: "John" },
-      { id: 2, name: "Jane" },
-    ],
-    "name"
-  )
-);
-
 module.exports = {
   isEmail,
   isNum,
@@ -52,4 +42,5 @@ module.exports = {
   boldText,
   isEqualArray,
   castArray,
+  convertObject,
 };
