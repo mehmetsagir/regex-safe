@@ -20,6 +20,7 @@ const { boldText } = require("./utils/boldText");
 const { isEqualArray } = require("./utils/isEqualArray");
 const { castArray } = require("./utils/castArray");
 const { convertObject } = require("./utils/convertObject");
+const { countOccurrences } = require("./utils/countOccurrences");
 
 module.exports = {
   isEmail,
@@ -43,4 +44,5 @@ module.exports = {
   isEqualArray,
   castArray,
   convertObject,
+  countOccurrences,
 };

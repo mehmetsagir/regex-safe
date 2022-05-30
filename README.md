@@ -21,6 +21,15 @@ Easy controls with Regex.
 
 ### Convert Object
 
+```js
+import { countOccurrences } from "regex-safe";
+
+countOccurrences(["Mehmet", "Mehmet", "Regex", "Safe"], "mehmet"); // 2
+countOccurrences([2, 1, 3, 4, 5, 2, 7, 2], 2); // 3
+```
+
+### Convert Object
+
 Convert to Object from Array.
 
 ```js
