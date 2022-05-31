@@ -19,6 +19,15 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Range
+
+```js
+import { range } from "regex-safe";
+
+range(1, 10); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+range(2, 5); // [2, 3, 4, 5]
+```
+
 ### Convert Object
 
 ```js
