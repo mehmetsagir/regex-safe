@@ -22,6 +22,7 @@ const { castArray } = require("./utils/castArray");
 const { convertObject } = require("./utils/convertObject");
 const { countOccurrences } = require("./utils/countOccurrences");
 const { range } = require("./utils/range");
+const { maxByArray } = require("./utils/maxByArray");
 
 module.exports = {
   isEmail,
@@ -47,4 +48,5 @@ module.exports = {
   convertObject,
   countOccurrences,
   range,
+  maxByArray,
 };

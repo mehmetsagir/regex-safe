@@ -19,6 +19,30 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Max by Array
+
+```js
+import { maxByArray } from "regex-safe";
+
+maxByArray(
+  [
+    {
+      name: "John",
+      age: 20,
+    },
+    {
+      name: "Jane",
+      age: 30,
+    },
+    {
+      name: "Joe",
+      age: 10,
+    },
+  ],
+  "age"
+); // { name: "Jane", age: 30 },
+```
+
 ### Range
 
 ```js
