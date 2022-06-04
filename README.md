@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Index of Min
+
+```js
+import { indexOfMin } from "regex-safe";
+
+indexOfMin([6, 2, 5, 9, 7]); // 1
+```
+
 ### Max by Array
 
 ```js
