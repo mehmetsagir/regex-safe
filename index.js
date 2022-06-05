@@ -24,6 +24,7 @@ const { countOccurrences } = require("./utils/countOccurrences");
 const { range } = require("./utils/range");
 const { maxByArray } = require("./utils/maxByArray");
 const { indexOfMin } = require("./utils/indexOfMin");
+const { indexOfMax } = require("./utils/indexOfMax");
 
 module.exports = {
   isEmail,
@@ -51,4 +52,5 @@ module.exports = {
   range,
   maxByArray,
   indexOfMin,
+  indexOfMax,
 };
