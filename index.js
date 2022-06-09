@@ -23,6 +23,7 @@ const { convertObject } = require("./utils/convertObject");
 const { countOccurrences } = require("./utils/countOccurrences");
 const { range } = require("./utils/range");
 const { maxByArray } = require("./utils/maxByArray");
+const { minByArray } = require("./utils/minByArray");
 const { indexOfMin } = require("./utils/indexOfMin");
 const { indexOfMax } = require("./utils/indexOfMax");
 
@@ -51,6 +52,7 @@ module.exports = {
   countOccurrences,
   range,
   maxByArray,
+  minByArray,
   indexOfMin,
   indexOfMax,
 };

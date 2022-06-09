@@ -38,6 +38,30 @@ indexOfMin([6, 2, 5, 9, 7]); // 1
 ### Max by Array
 
 ```js
+import { minByArray } from "regex-safe";
+
+minByArray(
+  [
+    {
+      name: "John",
+      age: 20,
+    },
+    {
+      name: "Jane",
+      age: 30,
+    },
+    {
+      name: "Joe",
+      age: 10,
+    },
+  ],
+  "age"
+); // { name: "Joe", age: 10 },
+```
+
+### Max by Array
+
+```js
 import { maxByArray } from "regex-safe";
 
 maxByArray(
