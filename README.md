@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Flat an Array
+
+```js
+import { flat } from "regex-safe";
+
+flat(["regex-safe", ["regex", "safe"]]); // ["regex-safe", "regex", "safe"]
+```
+
 ### Index of Max
 
 ```js

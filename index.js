@@ -26,6 +26,7 @@ const { maxByArray } = require("./utils/maxByArray");
 const { minByArray } = require("./utils/minByArray");
 const { indexOfMin } = require("./utils/indexOfMin");
 const { indexOfMax } = require("./utils/indexOfMax");
+const { flat } = require("./utils/flat");
 
 module.exports = {
   isEmail,
@@ -55,4 +56,5 @@ module.exports = {
   minByArray,
   indexOfMin,
   indexOfMax,
+  flat,
 };
