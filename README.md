@@ -19,6 +19,15 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get n-th Items
+
+```js
+import { getNthItems } from "regex-safe";
+
+getNthItems([1, 2, 3, 4, 5, 6, 7, 8, 9], 2); // [2, 4, 6, 8]
+getNthItems([1, 2, 3, 4, 5, 6, 7, 8, 9], 3); // [3, 6, 9]
+```
+
 ### Get Consecutive Arrays
 
 ```js
