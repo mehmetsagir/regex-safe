@@ -19,6 +19,16 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Consecutive Arrays
+
+```js
+import { getConsecutiveArrays } from "regex-safe";
+
+getConsecutiveArrays([1, 2, 3, 4, 5], 2); // [[1, 2], [2, 3], [3, 4], [4, 5]]
+getConsecutiveArrays([1, 2, 3, 4, 5], 3); // [[1, 2, 3], [2, 3, 4], [3, 4, 5]]
+getConsecutiveArrays([1, 2, 3, 4, 5], 6); // []
+```
+
 ### Flat an Array
 
 ```js

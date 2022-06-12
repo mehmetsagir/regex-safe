@@ -27,6 +27,7 @@ const { minByArray } = require("./utils/minByArray");
 const { indexOfMin } = require("./utils/indexOfMin");
 const { indexOfMax } = require("./utils/indexOfMax");
 const { flat } = require("./utils/flat");
+const { getConsecutiveArrays } = require("./utils/getConsecutiveArrays");
 
 module.exports = {
   isEmail,
@@ -57,4 +58,5 @@ module.exports = {
   indexOfMin,
   indexOfMax,
   flat,
+  getConsecutiveArrays,
 };
