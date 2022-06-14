@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Intersection
+
+```js
+import { getIntersection } from "regex-safe";
+
+getIntersection([1, 2, 3], [2, 3, 4]); // [2, 3]
+```
+
 ### Get n-th Items
 
 ```js
