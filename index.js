@@ -30,6 +30,7 @@ const { flat } = require("./utils/flat");
 const { getConsecutiveArrays } = require("./utils/getConsecutiveArrays");
 const { getNthItems } = require("./utils/getNthItems");
 const { getIntersection } = require("./utils/getIntersection");
+const { sum } = require("./utils/sum");
 
 module.exports = {
   isEmail,
@@ -63,4 +64,5 @@ module.exports = {
   getConsecutiveArrays,
   getNthItems,
   getIntersection,
+  sum,
 };

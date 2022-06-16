@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Sum
+
+```js
+import { sum } from "regex-safe";
+
+sum([1, 2, 3, 4, 5]); // 15
+```
+
 ### Get Intersection
 
 ```js
