@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Unique
+
+```js
+import { unique } from "regex-safe";
+
+unique([1, 2, 3, 1, 2, 3, 4, 5]); // [1, 2, 3, 4, 5]
+```
+
 ### Sum
 
 ```js
