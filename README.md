@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Union
+
+```js
+import { union } from "regex-safe";
+
+union([1, 2], [2, 3], [3]); // [1, 2, 3]
+```
+
 ### Unique
 
 ```js

@@ -32,6 +32,7 @@ const { getNthItems } = require("./utils/getNthItems");
 const { getIntersection } = require("./utils/getIntersection");
 const { sum } = require("./utils/sum");
 const { unique } = require("./utils/unique");
+const { union } = require("./utils/union");
 
 module.exports = {
   isEmail,
@@ -67,4 +68,5 @@ module.exports = {
   getIntersection,
   sum,
   unique,
+  union,
 };
