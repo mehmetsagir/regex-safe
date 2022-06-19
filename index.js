@@ -33,6 +33,8 @@ const { getIntersection } = require("./utils/getIntersection");
 const { sum } = require("./utils/sum");
 const { unique } = require("./utils/unique");
 const { union } = require("./utils/union");
+const { groupBy } = require("./utils/groupBy");
+const { merge } = require("./utils/merge");
 
 module.exports = {
   isEmail,
@@ -69,4 +71,6 @@ module.exports = {
   sum,
   unique,
   union,
+  groupBy,
+  merge,
 };
