@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Union
+
+```js
+import { removeFalsy } from "regex-safe";
+
+removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
+```
+
 ### Group by
 
 ```js

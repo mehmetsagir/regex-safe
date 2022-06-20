@@ -35,6 +35,21 @@ const { unique } = require("./utils/unique");
 const { union } = require("./utils/union");
 const { groupBy } = require("./utils/groupBy");
 const { merge } = require("./utils/merge");
+const { removeFalsy } = require("./utils/removeFalsy");
+
+console.log(
+  removeFalsy([
+    0,
+    "a string",
+    "",
+    NaN,
+    true,
+    5,
+    undefined,
+    "another string",
+    false,
+  ])
+);
 
 module.exports = {
   isEmail,
@@ -73,4 +88,5 @@ module.exports = {
   union,
   groupBy,
   merge,
+  removeFalsy,
 };
