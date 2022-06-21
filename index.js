@@ -37,6 +37,7 @@ const { groupBy } = require("./utils/groupBy");
 const { merge } = require("./utils/merge");
 const { removeFalsy } = require("./utils/removeFalsy");
 const { repeat } = require("./utils/repeat");
+const { shuffle } = require("./utils/shuffle");
 
 module.exports = {
   isEmail,
@@ -77,4 +78,5 @@ module.exports = {
   merge,
   removeFalsy,
   repeat,
+  shuffle,
 };
