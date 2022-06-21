@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Shuffle
+
+`````js
+import { shuffle } from "regex-safe";
+shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [9, 1, 10, 6, 8, 5, 2, 3, 7, 4]
+```
+
 ### Repeat
 
 ````js
@@ -31,7 +38,7 @@ repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
 import { removeFalsy } from "regex-safe";
 
 removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
-````
+`````
 
 ### Group by
 
