@@ -19,13 +19,19 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Repeat
+
+````js
+import { repeat } from "regex-safe";
+repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
+
 ### Union
 
 ```js
 import { removeFalsy } from "regex-safe";
 
 removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
-```
+````
 
 ### Group by
 
