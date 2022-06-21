@@ -4,4 +4,4 @@ const shuffle = (arr) =>
     .sort((a, b) => a.sort - b.sort)
     .map((a) => a.value);
 
-module.exprots = { shuffle };
+module.exports = { shuffle };
