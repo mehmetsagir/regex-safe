@@ -38,6 +38,7 @@ const { merge } = require("./utils/merge");
 const { removeFalsy } = require("./utils/removeFalsy");
 const { repeat } = require("./utils/repeat");
 const { shuffle } = require("./utils/shuffle");
+const { sort } = require("./utils/sort");
 
 module.exports = {
   isEmail,
@@ -79,4 +80,5 @@ module.exports = {
   removeFalsy,
   repeat,
   shuffle,
+  sort,
 };
