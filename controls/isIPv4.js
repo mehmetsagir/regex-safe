@@ -4,4 +4,4 @@ const isIPv4 = (ip) => {
   return regex.test(ip) ? true : false;
 };
 
-module.exports = { isIPv4 };
+module.exports = isIPv4;

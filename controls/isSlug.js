@@ -4,4 +4,4 @@ const isSlug = (value) => {
   return regex.test(value) ? true : false;
 };
 
-module.exports = { isSlug };
+module.exports = isSlug;

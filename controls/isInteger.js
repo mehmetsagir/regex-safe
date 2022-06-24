@@ -3,4 +3,4 @@ const isInteger = (value) => {
   return regex.test(value) ? true : false;
 };
 
-module.exports = { isInteger };
+module.exports = isInteger;

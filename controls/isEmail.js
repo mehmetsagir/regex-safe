@@ -3,4 +3,4 @@ const isEmail = (email) => {
   return regex.test(email) ? true : false;
 };
 
-module.exports = { isEmail };
+module.exports = isEmail;

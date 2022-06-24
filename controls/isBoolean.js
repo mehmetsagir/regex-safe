@@ -3,4 +3,4 @@ const isBoolean = (value) => {
   return regex.test(value) ? true : false;
 };
 
-module.exports = { isBoolean };
+module.exports = isBoolean;

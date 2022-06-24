@@ -8,4 +8,4 @@ const boldText = (str, boldText, caseSensitivity) => {
   return str.replace(regex, replacement);
 };
 
-module.exports = { boldText };
+module.exports = boldText;

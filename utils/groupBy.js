@@ -4,4 +4,4 @@ const groupBy = (arr, key) =>
     {}
   );
 
-module.exports = { groupBy };
+module.exports = groupBy;

@@ -6,4 +6,4 @@ const chunk = (arr, size) =>
     []
   );
 
-module.exports = { chunk };
+module.exports = chunk;

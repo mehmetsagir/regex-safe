@@ -4,4 +4,4 @@ const isEqualArray = (a, b, typeSensivity = false) => {
     : a.every((v, i) => v == b[i]);
 };
 
-module.exports = { isEqualArray };
+module.exports = isEqualArray;

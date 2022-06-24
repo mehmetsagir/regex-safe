@@ -3,4 +3,4 @@ const isHTMLTags = (html) => {
   return regex.test(html) ? true : false;
 };
 
-module.exports = { isHTMLTags };
+module.exports = isHTMLTags;

@@ -3,4 +3,4 @@ const removeHTMLTags = (str) => {
   return str.replaceAll(regex, "");
 };
 
-module.exports = { removeHTMLTags };
+module.exports = removeHTMLTags;

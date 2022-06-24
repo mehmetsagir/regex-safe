@@ -59,4 +59,4 @@ const isPassword = (pass, options = defaultOptions, locale = "en") => {
   return values?.length > 0 ? values[0] : true;
 };
 
-module.exports = { isPassword };
+module.exports = isPassword;

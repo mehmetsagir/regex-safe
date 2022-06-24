@@ -3,4 +3,4 @@ const isImageURL = (fileURL) => {
   return regex.test(fileURL) ? true : false;
 };
 
-module.exports = { isImageURL };
+module.exports = isImageURL;

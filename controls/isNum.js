@@ -3,4 +3,4 @@ const isNum = (num) => {
   return regex.test(num) ? true : false;
 };
 
-module.exports = { isNum };
+module.exports = isNum;

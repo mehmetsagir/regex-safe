@@ -6,4 +6,4 @@ const countOccurrences = (arr, val) => {
   );
 };
 
-module.exports = { countOccurrences };
+module.exports = countOccurrences;

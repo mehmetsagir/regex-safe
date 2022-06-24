@@ -3,4 +3,4 @@ const getConsecutiveArrays = (arr, size) =>
     ? []
     : arr.slice(size - 1).map((_, i) => arr.slice(i, size + i));
 
-module.exports = { getConsecutiveArrays };
+module.exports = getConsecutiveArrays;

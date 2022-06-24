@@ -3,4 +3,4 @@ const isHexColor = (color) => {
   return regex.test(color) ? true : false;
 };
 
-module.exports = { isHexColor };
+module.exports = isHexColor;

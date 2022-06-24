@@ -4,4 +4,4 @@ const convertObject = (arr, key) => {
   );
 };
 
-module.exports = { convertObject };
+module.exports = convertObject;

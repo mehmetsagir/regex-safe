@@ -5,4 +5,4 @@ const isURL = (url) => {
   return regex.test(url) ? true : false;
 };
 
-module.exports = { isURL };
+module.exports = isURL;

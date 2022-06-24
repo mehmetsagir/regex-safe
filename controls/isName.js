@@ -5,4 +5,4 @@ const isName = (name) => {
   return regex.test(name);
 };
 
-module.exports = { isName };
+module.exports = isName;
