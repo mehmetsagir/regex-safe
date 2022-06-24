@@ -39,6 +39,7 @@ const { removeFalsy } = require("./utils/removeFalsy");
 const { repeat } = require("./utils/repeat");
 const { shuffle } = require("./utils/shuffle");
 const { sort } = require("./utils/sort");
+const { chunk } = require("./utils/chunk");
 
 module.exports = {
   isEmail,
@@ -81,4 +82,5 @@ module.exports = {
   repeat,
   shuffle,
   sort,
+  chunk,
 };
