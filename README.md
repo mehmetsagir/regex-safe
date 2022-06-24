@@ -19,6 +19,16 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Transpose
+
+````````js
+import { transpose  } from "regex-safe";
+transpose([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ]) // [ [ 1, 4, 7 ], [ 2, 5, 8 ], [ 3, 6, 9 ] ]
+```
 ### Chunk
 
 ```````js
@@ -50,7 +60,7 @@ repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
 import { removeFalsy } from "regex-safe";
 
 removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
-```````
+````````
 
 ### Group by
 

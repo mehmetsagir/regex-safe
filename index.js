@@ -40,6 +40,15 @@ const repeat = require("./utils/repeat");
 const shuffle = require("./utils/shuffle");
 const sort = require("./utils/sort");
 const chunk = require("./utils/chunk");
+const transpose = require("./utils/transpose");
+
+console.log(
+  transpose([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ])
+);
 
 module.exports = {
   isEmail,
@@ -83,4 +92,5 @@ module.exports = {
   shuffle,
   sort,
   chunk,
+  transpose,
 };
