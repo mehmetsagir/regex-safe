@@ -21,6 +21,13 @@ Easy controls with Regex.
 
 ### Transpose
 
+`````````js
+import { swapItems  } from "regex-safe";
+swapItems([1, 2, 3, 4, 5], 1, 4); // [1, 5, 3, 4, 2]
+```
+
+### Transpose
+
 ````````js
 import { transpose  } from "regex-safe";
 transpose([
@@ -60,7 +67,7 @@ repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
 import { removeFalsy } from "regex-safe";
 
 removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
-````````
+`````````
 
 ### Group by
 

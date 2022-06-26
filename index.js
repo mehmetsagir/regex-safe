@@ -41,6 +41,7 @@ const shuffle = require("./utils/shuffle");
 const sort = require("./utils/sort");
 const chunk = require("./utils/chunk");
 const transpose = require("./utils/transpose");
+const swapItems = require("./utils/swapItems");
 
 module.exports = {
   isEmail,
@@ -85,4 +86,5 @@ module.exports = {
   sort,
   chunk,
   transpose,
+  swapItems,
 };
