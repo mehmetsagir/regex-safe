@@ -21,36 +21,39 @@ Easy controls with Regex.
 
 ### Transpose
 
-`````````js
-import { swapItems  } from "regex-safe";
+```js
+import { swapItems } from "regex-safe";
 swapItems([1, 2, 3, 4, 5], 1, 4); // [1, 5, 3, 4, 2]
 ```
 
 ### Transpose
 
-````````js
-import { transpose  } from "regex-safe";
+```js
+import { transpose } from "regex-safe";
 transpose([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-  ]) // [ [ 1, 4, 7 ], [ 2, 5, 8 ], [ 3, 6, 9 ] ]
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]); // [ [ 1, 4, 7 ], [ 2, 5, 8 ], [ 3, 6, 9 ] ]
 ```
+
 ### Chunk
 
-```````js
+```js
 import { chunk } from "regex-safe";
 chunk([1, 2, 3, 4, 5, 6, 7, 8], 4); // [[1, 2, 3, 4], [5, 6, 7, 8]]
 ```
+
 ### Sort
 
-``````js
+```js
 import { sort } from "regex-safe";
 sort([1, 5, 2, 4, 3]); // [1, 2, 3, 4, 5]
 ```
+
 ### Shuffle
 
-`````js
+```js
 import { shuffle } from "regex-safe";
 shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [9, 1, 10, 6, 8, 5, 2, 3, 7, 4]
 ```
@@ -60,6 +63,7 @@ shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [9, 1, 10, 6, 8, 5, 2, 3, 7, 4]
 ````js
 import { repeat } from "regex-safe";
 repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
+````
 
 ### Union
 
@@ -67,7 +71,7 @@ repeat([1, 2, 3], 3); // [1, 2, 3, 1, 2, 3, 1, 2, 3]```
 import { removeFalsy } from "regex-safe";
 
 removeFalsy([0, "mehmet", "", NaN, true, 5, undefined, "regex-safe", false]); // [ 'mehmet', true, 5, 'regex-safe' ]
-`````````
+```
 
 ### Group by
 
@@ -479,3 +483,7 @@ We use [GitHub](https://github.com/mehmetsagir/regex-safe) for versioning.
 ## License
 
 Licensed under the MIT license, see [LICENSE](https://github.com/mehmetsagir/regex-safe/blob/master/LICENSE) for details.
+
+```
+
+```
