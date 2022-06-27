@@ -19,12 +19,20 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Suffix Am / Pm
+
+````js
+import { suffixAmPm } from "regex-safe";
+suffixAmPm(0); // '12am'
+suffixAmPm(12); // '12pm'
+```
+
 ### Transpose
 
 ```js
 import { swapItems } from "regex-safe";
 swapItems([1, 2, 3, 4, 5], 1, 4); // [1, 5, 3, 4, 2]
-```
+````
 
 ### Transpose
 

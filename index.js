@@ -42,6 +42,7 @@ const sort = require("./utils/sort");
 const chunk = require("./utils/chunk");
 const transpose = require("./utils/transpose");
 const swapItems = require("./utils/swapItems");
+const suffixAmPm = require("./utils/suffixAmPm");
 
 module.exports = {
   isEmail,
@@ -87,4 +88,5 @@ module.exports = {
   chunk,
   transpose,
   swapItems,
+  suffixAmPm,
 };
