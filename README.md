@@ -19,9 +19,16 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Diff Days
+
+```js
+import { diffDays } from "regex-safe";
+diffDays(new Date('2014-12-19'), new Date('2020-01-01')); // 1839
+```
+
 ### Suffix Am / Pm
 
-````js
+```js
 import { suffixAmPm } from "regex-safe";
 suffixAmPm(0); // '12am'
 suffixAmPm(12); // '12pm'

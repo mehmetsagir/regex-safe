@@ -43,6 +43,7 @@ const chunk = require("./utils/chunk");
 const transpose = require("./utils/transpose");
 const swapItems = require("./utils/swapItems");
 const suffixAmPm = require("./utils/suffixAmPm");
+const diffDays = require("./utils/diffDays");
 
 module.exports = {
   isEmail,
@@ -89,4 +90,5 @@ module.exports = {
   transpose,
   swapItems,
   suffixAmPm,
+  diffDays,
 };
