@@ -19,11 +19,18 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Month Diff
+
+```js
+import { monthDiff } from "regex-safe";
+monthDiff(new Date("2020-01-01"), new Date("2021-01-01")); // 12
+```
+
 ### Diff Days
 
 ```js
 import { diffDays } from "regex-safe";
-diffDays(new Date('2014-12-19'), new Date('2020-01-01')); // 1839
+diffDays(new Date("2014-12-19"), new Date("2020-01-01")); // 1839
 ```
 
 ### Suffix Am / Pm
@@ -39,7 +46,7 @@ suffixAmPm(12); // '12pm'
 ```js
 import { swapItems } from "regex-safe";
 swapItems([1, 2, 3, 4, 5], 1, 4); // [1, 5, 3, 4, 2]
-````
+```
 
 ### Transpose
 
