@@ -45,6 +45,7 @@ const swapItems = require("./utils/swapItems");
 const suffixAmPm = require("./utils/suffixAmPm");
 const diffDays = require("./utils/diffDays");
 const monthDiff = require("./utils/monthDiff");
+const formatSeconds = require("./utils/formatSeconds");
 
 module.exports = {
   isEmail,
@@ -93,4 +94,5 @@ module.exports = {
   suffixAmPm,
   diffDays,
   monthDiff,
+  formatSeconds,
 };

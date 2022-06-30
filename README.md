@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Format Seconds
+
+```js
+import { formatSeconds } from "regex-safe";
+formatSeconds(200); // 00:03:20
+```
+
 ### Month Diff
 
 ```js
