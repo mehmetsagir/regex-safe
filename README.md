@@ -22,9 +22,9 @@ Easy controls with Regex.
 ### Format Date
 
 ```js
-import { formatDate } from "regex-safe";
-formatDate(new Date(), "pt-BR"); // 06/05/2020
-formatDate(new Date(), "tr-TR"); // 06.05.2020
+import { formatLocaleDate } from "regex-safe";
+formatLocaleDate(new Date(), "pt-BR"); // 06/05/2020
+formatLocaleDate(new Date(), "tr-TR"); // 06.05.2020
 ```
 
 ### Format Seconds
