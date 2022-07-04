@@ -46,6 +46,7 @@ const suffixAmPm = require("./utils/suffixAmPm");
 const diffDays = require("./utils/diffDays");
 const monthDiff = require("./utils/monthDiff");
 const formatSeconds = require("./utils/formatSeconds");
+const formatDate = require("./utils/formatDate");
 
 module.exports = {
   isEmail,
@@ -95,4 +96,5 @@ module.exports = {
   diffDays,
   monthDiff,
   formatSeconds,
+  formatDate,
 };

@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Format Date
+
+```js
+import { formatDate } from "regex-safe";
+formatDate(new Date(), "pt-BR"); // 06/05/2020
+formatDate(new Date(), "tr-TR"); // 06.05.2020
+```
+
 ### Format Seconds
 
 ```js
