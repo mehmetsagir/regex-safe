@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Day of Year
+
+```js
+import { dayOfYear } from "regex-safe";
+dayOfYear(new Date(2020, 04, 16)); // 137
+```
+
 ### Format Date
 
 ```js

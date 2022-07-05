@@ -47,6 +47,7 @@ const diffDays = require("./utils/diffDays");
 const monthDiff = require("./utils/monthDiff");
 const formatSeconds = require("./utils/formatSeconds");
 const formatLocaleDate = require("./utils/formatLocaleDate");
+const dayOfYear = require("./utils/dayOfYear");
 
 module.exports = {
   isEmail,
@@ -97,4 +98,5 @@ module.exports = {
   monthDiff,
   formatSeconds,
   formatLocaleDate,
+  dayOfYear,
 };
