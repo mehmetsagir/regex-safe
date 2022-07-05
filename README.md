@@ -19,6 +19,14 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### getFirstDate
+
+```js
+import { getFirstDate } from "regex-safe";
+getFirstDate(); // 2022-06-30T21:00:00.000Z
+getFirstDate(new Date("2020-01-01")); // 2020-01-01T00:00:00.000Z
+```
+
 ### Day of Year
 
 ```js

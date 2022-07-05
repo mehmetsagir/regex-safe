@@ -48,6 +48,9 @@ const monthDiff = require("./utils/monthDiff");
 const formatSeconds = require("./utils/formatSeconds");
 const formatLocaleDate = require("./utils/formatLocaleDate");
 const dayOfYear = require("./utils/dayOfYear");
+const getFirstDate = require("./utils/getFirstDate");
+
+console.log(getFirstDate(new Date("2020-01-01")));
 
 module.exports = {
   isEmail,
@@ -99,4 +102,5 @@ module.exports = {
   formatSeconds,
   formatLocaleDate,
   dayOfYear,
+  getFirstDate,
 };
