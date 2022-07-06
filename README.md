@@ -23,13 +23,15 @@ Easy controls with Regex.
 
 ```js
 import { getLastDate } from "regex-safe";
+getLastDate(new Date("2020-01-01")); // 2020-01-30T21:00:00.000Z
 ```
 
 ### Get First Date
 
 ```js
 import { getFirstDate } from "regex-safe";
-getLastDate(new Date("2020-01-01")); // 2020-01-30T21:00:00.000Z
+getFirstDate(); // 2022-06-30T21:00:00.000Z
+getFirstDate(new Date("2020-01-01")); // 2020-01-01T00:00:00.
 ```
 
 ### Day of Year
