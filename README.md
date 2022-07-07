@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Month Name
+
+```js
+import { getMonthName } from "regex-safe";
+getMonthName(new Date()); // July
+```
+
 ### Get Last Date
 
 ```js

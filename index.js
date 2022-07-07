@@ -50,8 +50,7 @@ const formatLocaleDate = require("./utils/formatLocaleDate");
 const dayOfYear = require("./utils/dayOfYear");
 const getFirstDate = require("./utils/getFirstDate");
 const getLastDate = require("./utils/getLastDate");
-
-console.log(getLastDate(new Date("2020-01-01")));
+const getMonthName = require("./utils/getMonthName");
 
 module.exports = {
   isEmail,
@@ -105,4 +104,5 @@ module.exports = {
   dayOfYear,
   getFirstDate,
   getLastDate,
+  getMonthName,
 };
