@@ -51,6 +51,7 @@ const dayOfYear = require("./utils/dayOfYear");
 const getFirstDate = require("./utils/getFirstDate");
 const getLastDate = require("./utils/getLastDate");
 const getMonthName = require("./utils/getMonthName");
+const daysInMonth = require("./utils/daysInMonth");
 
 module.exports = {
   isEmail,
@@ -105,4 +106,5 @@ module.exports = {
   getFirstDate,
   getLastDate,
   getMonthName,
+  daysInMonth,
 };

@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Days in Month
+
+```js
+import { daysInMonth } from "regex-safe";
+daysInMonth(2020, 1); // 30
+```
+
 ### Get Month Name
 
 ```js
