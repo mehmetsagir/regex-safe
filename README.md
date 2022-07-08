@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Timezone
+
+```js
+import { getTimezone } from "regex-safe";
+getTimezone(); // Europe/Istanbul
+```
+
 ### Days in Month
 
 ```js
