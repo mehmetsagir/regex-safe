@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Tomorrow
+
+```js
+import { tomorrow } from "regex-safe";
+tomorrow(); // 2022-07-10T17:34:28.400Z
+```
+
 ### Get Timezone
 
 ```js
