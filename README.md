@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Number of Days
+
+```js
+import { numberOfDays } from "regex-safe";
+numberOfDays(2022); // 365
+```
+
 ### Tomorrow
 
 ```js

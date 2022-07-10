@@ -54,6 +54,7 @@ const getMonthName = require("./utils/getMonthName");
 const daysInMonth = require("./utils/daysInMonth");
 const getTimezone = require("./utils/getTimezone");
 const tomorrow = require("./utils/tomorrow");
+const numberOfDays = require("./utils/numberOfDays");
 
 module.exports = {
   isEmail,
@@ -111,4 +112,5 @@ module.exports = {
   daysInMonth,
   getTimezone,
   tomorrow,
+  numberOfDays,
 };
