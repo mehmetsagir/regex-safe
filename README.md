@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Week Day
+
+```js
+import { getWeekday } from "regex-safe";
+getWeekday(new Date()); // sunday
+```
+
 ### Number of Days
 
 ```js
