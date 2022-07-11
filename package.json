@@ -1,6 +1,6 @@
 {
   "name": "regex-safe",
-  "version": "0.1.74",
+  "version": "0.1.75",
   "main": "./package/index.js",
   "source": "./index.js",
   "scripts": {
