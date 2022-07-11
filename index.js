@@ -57,6 +57,7 @@ const tomorrow = require("./utils/tomorrow");
 const numberOfDays = require("./utils/numberOfDays");
 const getWeekday = require("./utils/getWeekday");
 const yesterday = require("./utils/yesterday");
+const sortDescending = require("./utils/sortDescending");
 
 module.exports = {
   isEmail,
@@ -117,4 +118,5 @@ module.exports = {
   numberOfDays,
   getWeekday,
   yesterday,
+  sortDescending,
 };

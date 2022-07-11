@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Sort Descending
+
+```js
+import { sortDescending } from "regex-safe";
+sortDescending([new Date("2019-01-03"), new Date("2019-01-01")]); // [new Date("2019-01-03"), new Date("2019-01-01")]
+```
+
 ### Yesterday
 
 ```js
