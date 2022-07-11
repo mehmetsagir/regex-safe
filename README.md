@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Yesterday
+
+```js
+import { yesterday } from "regex-safe";
+yesterday(); // 2022-07-10T14:32:24.326Z
+```
+
 ### Get Week Day
 
 ```js
