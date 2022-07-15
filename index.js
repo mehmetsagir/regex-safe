@@ -58,6 +58,7 @@ const numberOfDays = require("./utils/numberOfDays");
 const getWeekday = require("./utils/getWeekday");
 const yesterday = require("./utils/yesterday");
 const sortDescending = require("./utils/sortDescending");
+const isDescendant = require("./utils/isDescendant");
 
 module.exports = {
   isEmail,
@@ -119,4 +120,5 @@ module.exports = {
   getWeekday,
   yesterday,
   sortDescending,
+  isDescendant,
 };
