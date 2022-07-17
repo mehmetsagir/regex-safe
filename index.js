@@ -61,6 +61,7 @@ const sortDescending = require("./utils/sortDescending");
 const isDescendant = require("./utils/isDescendant");
 const hasFocus = require("./utils/hasFocus");
 const touchSupported = require("./utils/touchSupported");
+const isAtBottom = require("./utils/isAtBottom");
 
 module.exports = {
   isEmail,
@@ -125,4 +126,5 @@ module.exports = {
   isDescendant,
   hasFocus,
   touchSupported,
+  isAtBottom,
 };
