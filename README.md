@@ -19,6 +19,13 @@ Easy controls with Regex.
 
 ## Use of Utils
 
+### Get Position
+
+```js
+import { getPosition } from "regex-safe";
+getPosition(document.body); // { left: 0, top: 0 }
+```
+
 ### Sort Descending
 
 ```js
