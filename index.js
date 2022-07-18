@@ -64,6 +64,7 @@ const touchSupported = require("./utils/touchSupported");
 const isAtBottom = require("./utils/isAtBottom");
 const siblings = require("./utils/siblings");
 const getSelectedText = require("./utils/getSelectedText");
+const getPosition = require("./utils/getPosition");
 
 module.exports = {
   isEmail,
@@ -131,4 +132,5 @@ module.exports = {
   isAtBottom,
   siblings,
   getSelectedText,
+  getPosition,
 };
