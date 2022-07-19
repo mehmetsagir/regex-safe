@@ -65,6 +65,7 @@ const isAtBottom = require("./utils/isAtBottom");
 const siblings = require("./utils/siblings");
 const getSelectedText = require("./utils/getSelectedText");
 const getPosition = require("./utils/getPosition");
+const insertAfter = require("./utils/insertAfter");
 
 module.exports = {
   isEmail,
@@ -133,4 +134,5 @@ module.exports = {
   siblings,
   getSelectedText,
   getPosition,
+  insertAfter,
 };
