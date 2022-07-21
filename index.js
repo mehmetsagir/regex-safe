@@ -66,6 +66,7 @@ const siblings = require("./utils/siblings");
 const getSelectedText = require("./utils/getSelectedText");
 const getPosition = require("./utils/getPosition");
 const insertAfter = require("./utils/insertAfter");
+const insertBefore = require("./utils/insertBefore");
 
 module.exports = {
   isEmail,
@@ -135,4 +136,5 @@ module.exports = {
   getSelectedText,
   getPosition,
   insertAfter,
+  insertBefore,
 };
