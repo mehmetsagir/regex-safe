@@ -67,6 +67,7 @@ const getSelectedText = require("./utils/getSelectedText");
 const getPosition = require("./utils/getPosition");
 const insertAfter = require("./utils/insertAfter");
 const insertBefore = require("./utils/insertBefore");
+const insertHtmlAfter = require("./utils/insertHtmlAfter");
 
 module.exports = {
   isEmail,
@@ -137,4 +138,5 @@ module.exports = {
   getPosition,
   insertAfter,
   insertBefore,
+  insertHtmlAfter,
 };
