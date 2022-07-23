@@ -68,6 +68,7 @@ const getPosition = require("./utils/getPosition");
 const insertAfter = require("./utils/insertAfter");
 const insertBefore = require("./utils/insertBefore");
 const insertHtmlAfter = require("./utils/insertHtmlAfter");
+const insertHtmlBefore = require("./utils/insertHtmlBefore");
 
 module.exports = {
   isEmail,
@@ -139,4 +140,5 @@ module.exports = {
   insertAfter,
   insertBefore,
   insertHtmlAfter,
+  insertHtmlBefore,
 };
