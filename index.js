@@ -70,6 +70,7 @@ const insertBefore = require("./utils/insertBefore");
 const insertHtmlAfter = require("./utils/insertHtmlAfter");
 const insertHtmlBefore = require("./utils/insertHtmlBefore");
 const goTo = require("./utils/goTo");
+const reload = require("./utils/reload");
 
 module.exports = {
   isEmail,
@@ -143,4 +144,5 @@ module.exports = {
   insertHtmlAfter,
   insertHtmlBefore,
   goTo,
+  reload,
 };
